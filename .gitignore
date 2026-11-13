@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Данные приложения
+workshop.db
+*.sqlite3
+*.db-journal
+frontend/static/uploads/*
+!frontend/static/uploads/.gitkeep
+
+# Настройки и секреты
+.env
+.env.local
+
+# Инструменты и логи
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.DS_Store
+Thumbs.db
