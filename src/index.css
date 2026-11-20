@@ -523,6 +523,7 @@ main {
 .app .banner-kicker {
   font: 8px var(--mono);
   letter-spacing: 0.7px;
+  display: block;
 }
 .hero-wordmark {
   color: var(--pink);
