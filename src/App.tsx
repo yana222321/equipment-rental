@@ -632,6 +632,18 @@ export default function App() {
   }
   return (
     <div className="app">
+      <header className="system-bar">
+        <div className="system-left">
+          <span className="system-symbol">⌘</span>
+          <strong>РАПИРА</strong>
+          <span className="system-divider" />
+          <span className="system-subtitle">Система управления мастерской</span>
+        </div>
+        <div className="system-right">
+          <span className="live-dot" />
+          <span>Мастерская открыта</span>
+        </div>
+      </header>
       <aside className={`sidebar ${mobileNav ? "mobile-open" : ""}`}>
         <a
           className="brand"
