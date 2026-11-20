@@ -1,0 +1,24 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+/plugins/
+/.opencode-skills/
+
+# Backend
+backend/**/bin/
+backend/**/obj/
+backend/**/*.db
+backend/**/*.db-shm
+backend/**/*.db-wal
+backend/**/Uploads/*
+!backend/**/Uploads/.gitkeep
